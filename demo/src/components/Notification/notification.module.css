@@ -1,0 +1,22 @@
+.root {
+  background-color: white;
+  border-radius: 3px;
+  box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.1);
+  font-weight: var(--medium);
+  letter-spacing: 2px;
+  padding: 2rem;
+  position: absolute;
+  text-align: center;
+  text-transform: uppercase;
+  top: 2.5rem;
+  width: 100%;
+}
+
+.root a {
+  &,
+  &:--interact,
+  &:--idle {
+    color: #0324ff;
+    text-decoration: none;
+  }
+}

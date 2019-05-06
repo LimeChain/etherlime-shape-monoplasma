@@ -1,0 +1,33 @@
+.root {
+  display: grid;
+  grid-column-gap: 6em;
+  grid-template-columns: 7fr 3fr;
+  margin-bottom: 6em;
+}
+
+.users {
+  display: grid;
+  grid-row-gap: 2em;
+}
+
+.buttons {
+  text-align: right;
+}
+
+.addUsers button {
+  padding: 0 2em;
+  width: auto;
+}
+
+.tokens {
+  display: flex;
+  flex-direction: column;
+
+  .button {
+    width: 100%;
+  }
+
+  .button + .button {
+    margin-top: 2em;
+  }
+}
