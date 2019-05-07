@@ -70,7 +70,7 @@ The demo UI will be started at http://localhost:8080/
 ## Start a validator
 
 In another terminal tab:
-`./start_validator.js`
+`node ./start_validator.js`
 
 Or alternatively:
 `WATCHED_ACCOUNTS=0x41ad2327e5910dcca156dc17d0908b690e2f1f7c,0x0e7a1cf7cf69299c20af39056af232fde05b5204 ./start_validator.js`

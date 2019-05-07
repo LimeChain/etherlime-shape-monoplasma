@@ -21,7 +21,6 @@ module.exports = (storeDir) => {
     log(`Setting up fileStore directories under ${storeDir}...`)
     const blocksDir = path.join(storeDir, "blocks")
     const eventsDir = path.join(storeDir, "events")
-    console.log('OGI IS HERE')
     if (!fs.existsSync(storeDir)) {
         fs.mkdirSync(storeDir, { recursive: true })
     }
