@@ -8,7 +8,7 @@ const Validator = require("./src/validator")
 const { throwIfNotContract } = require("./src/utils/checkArguments")
 const defaultServers = require("./defaultServers.json")
 const Channel = require("./src/joinPartChannel")
-const etherlime = require('etherlime');
+const etherlime = require('etherlime-lib');
 
 
 const {

@@ -8,7 +8,7 @@ const MerkleTree = require("../../src/merkletree")
 const ERC20Mintable = require('../../build/ERC20Mintable.json');
 const Airdrop = require('../../build/Airdrop.json');
 
-const etherlime = require('etherlime');
+const etherlime = require('etherlime-lib');
 const ethers = require('ethers');
 
 describe('BalanceVerifier', async () => {

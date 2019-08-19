@@ -1,6 +1,6 @@
 // adapted from https://github.com/OpenZeppelin/openzeppelin-solidity/blob/v1.12.0/test/ownership/Claimable.test.js
 
-const etherlime = require('etherlime');
+const etherlime = require('etherlime-lib');
 const Ownable = require('../../build/Ownable.json');
 
 describe('Ownable', async () => {

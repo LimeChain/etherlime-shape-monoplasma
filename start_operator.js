@@ -18,7 +18,7 @@ const revenueDemoRouter = require("./src/routers/revenueDemo")
 const Channel = require("./src/joinPartChannel")
 
 const MonoplasmaJson = require("./build/Monoplasma.json")
-const etherlime = require('etherlime');
+const etherlime = require('etherlime-lib');
 
 
 const {

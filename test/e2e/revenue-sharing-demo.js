@@ -7,7 +7,7 @@ const { untilStreamContains } = require("../utils/await-until")
 
 const ERC20Mintable = require("../../build/ERC20Mintable.json")
 const MonoplasmaJson = require("../../build/Monoplasma.json")
-const etherlime = require('etherlime');
+const etherlime = require('etherlime-lib');
 const ethers = require('ethers');
 
 const STORE_DIR = __dirname + `/test-store-${+new Date()}`

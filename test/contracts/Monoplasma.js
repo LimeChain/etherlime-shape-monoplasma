@@ -1,7 +1,7 @@
 const MonoplasmaState = require("../../src/state")
 const RootChainContract = require('../../build/Monoplasma.json');
 const ERC20Mintable = require('../../build/ERC20Mintable.json');
-const etherlime = require('etherlime');
+const etherlime = require('etherlime-lib');
 const ethers = require('ethers');
 
 describe('Monoplasma', async () => {

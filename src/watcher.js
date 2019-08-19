@@ -4,7 +4,7 @@ const { throwIfSetButNotContract } = require("./utils/checkArguments")
 
 const TokenJson = require("../build/ERC20Mintable.json")
 const MonoplasmaJson = require("../build/Monoplasma.json")
-const etherlime = require('etherlime');
+const etherlime = require('etherlime-lib');
 const ethers = require('ethers');
 
 /**
