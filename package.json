@@ -31,7 +31,8 @@
     "prettyjson": "^1.2.1",
     "promise-events": "^0.1.4",
     "source-map-support": "^0.5.9",
-    "zeromq": "^5.1.0"
+    "zeromq": "^5.1.0",
+    "ethers": "4.0.38"
   },
   "devDependencies": {
     "eslint": "^4.19.1",
