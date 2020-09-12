@@ -632,6 +632,22 @@ etherlime-utils@^1.1.2:
   dependencies:
     chalk "2.4.1"
 
+ethers@4.0.38:
+  version "4.0.38"
+  resolved "https://registry.yarnpkg.com/ethers/-/ethers-4.0.38.tgz#3fabafb4f79c435205b143b66b4a1af035043e37"
+  integrity sha512-l7l7RIfk2/rIFgRRVLFY3H06S9dhXXPUdMlYm6SCelB6oG+ABmoRig7xSVOLcHLayBfSwssjAAYLKxf1jWhbuQ==
+  dependencies:
+    "@types/node" "^10.3.2"
+    aes-js "3.0.0"
+    bn.js "^4.4.0"
+    elliptic "6.3.3"
+    hash.js "1.1.3"
+    js-sha3 "0.5.7"
+    scrypt-js "2.0.4"
+    setimmediate "1.0.4"
+    uuid "2.0.1"
+    xmlhttprequest "1.8.0"
+
 "ethers@git+https://github.com/LimeChain/ethers.js.git#master":
   version "4.0.29"
   resolved "git+https://github.com/LimeChain/ethers.js.git#9cd9e35696e522a0930fcd4e0fe15180beb5bd0c"
@@ -1231,9 +1247,9 @@ node-abi@^2.2.0:
     semver "^5.4.1"
 
 node-fetch@^2.2.0:
-  version "2.6.0"
-  resolved "https://registry.yarnpkg.com/node-fetch/-/node-fetch-2.6.0.tgz#e633456386d4aa55863f676a7ab0daa8fdecb0fd"
-  integrity sha512-8dG4H5ujfvFiqDmVu9fQ5bOHUC15JMjMY/Zumv26oOvvVJjM67KF8koCWIabKQ1GJIa9r2mMZscBq/TbdOcmNA==
+  version "2.6.1"
+  resolved "https://registry.yarnpkg.com/node-fetch/-/node-fetch-2.6.1.tgz#045bd323631f76ed2e2b55573394416b639a0052"
+  integrity sha512-V4aYg89jEoVRxRb2fJdAg8FHvI7cEyYdVAh94HH0UIK8oJxUfkjlDQN9RbMx+bEjP7+ggMiFRprSti032Oipxw==
 
 noop-logger@^0.1.1:
   version "0.1.1"
